@@ -1,10 +1,10 @@
-import React, { Fragment, useState } from 'react';
+﻿import React, { Fragment, useState } from 'react';
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import aImg from '/public/images/about/about_image_3.webp'
-import aImg2 from '/public/images/about/about_image_4.webp'
+import aImg from 'public/images/about/about_image_3.webp'
+import aImg2 from 'public/images/about/about_image_4.webp'
 import ModalVideo from 'react-modal-video'
 import PolicySection from './Policy';
 import WhyUs from './WhyUs';

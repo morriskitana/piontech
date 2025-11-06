@@ -1,15 +1,15 @@
-import sImg1 from '/public/images/services/service_image_1.webp'
-import sImg2 from '/public/images/services/service_image_2.webp'
-import sImg3 from '/public/images/services/service_image_3.webp'
-import sImg4 from '/public/images/services/service_image_4.webp'
-import sImg5 from '/public/images/services/service_image_5.webp'
+﻿import sImg1 from 'public/images/services/service_image_1.webp'
+import sImg2 from 'public/images/services/service_image_2.webp'
+import sImg3 from 'public/images/services/service_image_3.webp'
+import sImg4 from 'public/images/services/service_image_4.webp'
+import sImg5 from 'public/images/services/service_image_5.webp'
 
-import iconNetwork from '/public/images/icons/icon_code.svg'
-import iconSecurity from '/public/images/icons/icon_programming_tree.svg'
-import iconApps from '/public/images/icons/icon_monitor_2.svg'
-import iconPower from '/public/images/icons/icon_bug.svg'
-import iconSmart from '/public/images/icons/icon_analisis_2.svg'
-import iconIoT from '/public/images/icons/icon_process.svg'
+import iconNetwork from 'public/images/icons/icon_code.svg'
+import iconSecurity from 'public/images/icons/icon_programming_tree.svg'
+import iconApps from 'public/images/icons/icon_monitor_2.svg'
+import iconPower from 'public/images/icons/icon_bug.svg'
+import iconSmart from 'public/images/icons/icon_analisis_2.svg'
+import iconIoT from 'public/images/icons/icon_process.svg'
 
 const basePartnerGroups = [
     {

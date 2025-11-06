@@ -1,22 +1,22 @@
-import iconAbout from '/public/images/icons/icon_bulb.svg';
-import iconClients from '/public/images/icons/icon_users.svg';
-import iconPartners from '/public/images/icons/icon_hand_shake.svg';
-import iconTeam from '/public/images/icons/icon_user_2.svg';
-import iconCareer from '/public/images/icons/icon_pen.svg';
+﻿import iconAbout from 'public/images/icons/icon_bulb.svg';
+import iconClients from 'public/images/icons/icon_users.svg';
+import iconPartners from 'public/images/icons/icon_hand_shake.svg';
+import iconTeam from 'public/images/icons/icon_user_2.svg';
+import iconCareer from 'public/images/icons/icon_pen.svg';
 
-import iconIct from '/public/images/icons/icon_wifi.svg';
-import iconSecurity from '/public/images/icons/icon_bug.svg';
-import iconApplications from '/public/images/icons/icon_monitor_2.svg';
-import iconCustomSoftware from '/public/images/icons/icon_code.svg';
-import iconTelecom from '/public/images/icons/icon_chart.svg';
-import iconPower from '/public/images/icons/icon_leaf.svg';
-import iconSmart from '/public/images/icons/icon_building.svg';
-import iconIot from '/public/images/icons/icon_process.svg';
-import iconOtherSolutions from '/public/images/icons/icon_box.svg';
+import iconIct from 'public/images/icons/icon_wifi.svg';
+import iconSecurity from 'public/images/icons/icon_bug.svg';
+import iconApplications from 'public/images/icons/icon_monitor_2.svg';
+import iconCustomSoftware from 'public/images/icons/icon_code.svg';
+import iconTelecom from 'public/images/icons/icon_chart.svg';
+import iconPower from 'public/images/icons/icon_leaf.svg';
+import iconSmart from 'public/images/icons/icon_building.svg';
+import iconIot from 'public/images/icons/icon_process.svg';
+import iconOtherSolutions from 'public/images/icons/icon_box.svg';
 
-import iconProjectsAll from '/public/images/icons/icon_analysis.svg';
-import iconProjectsOngoing from '/public/images/icons/icon_clock.svg';
-import iconProjectsCompleted from '/public/images/icons/icon_check.svg';
+import iconProjectsAll from 'public/images/icons/icon_analysis.svg';
+import iconProjectsOngoing from 'public/images/icons/icon_clock.svg';
+import iconProjectsCompleted from 'public/images/icons/icon_check.svg';
 
 export const aboutMenuItems = [
     {

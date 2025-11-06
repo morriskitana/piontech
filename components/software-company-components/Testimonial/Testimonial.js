@@ -1,16 +1,17 @@
-import { useRef, useEffect } from 'react';
-import { Navigation } from 'swiper';
+﻿import { useRef, useEffect } from 'react';
+import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import icon1 from '/public/images/icons/icon_c.svg';
-import icon2 from '/public/images/icons/icon_g2.svg';
-import tImg1 from '/public/images/avatar/avatar_5.webp';
-import tImg2 from '/public/images/avatar/avatar_6.webp';
-import tImg3 from '/public/images/avatar/avatar_7.webp';
+import 'swiper/css/pagination';
+import icon1 from 'public/images/icons/icon_c.svg';
+import icon2 from 'public/images/icons/icon_g2.svg';
+import tImg1 from 'public/images/avatar/avatar_5.webp';
+import tImg2 from 'public/images/avatar/avatar_6.webp';
+import tImg3 from 'public/images/avatar/avatar_7.webp';
 
-import clogo from '/public/images/clients/client_logo_8.webp';
-import flag from '/public/images/flag/ukraine_flag.webp';
+import clogo from 'public/images/clients/client_logo_8.webp';
+import flag from 'public/images/flag/ukraine_flag.webp';
 import Image from 'next/image';
 
 const testimonials = [
@@ -116,7 +117,7 @@ const Testimonial = () => {
                             {testimonials.map((testimonialItem) => (
                                 <SwiperSlide key={testimonialItem.id}>
                                     <div className="review_block_2">
-                                        <h3 className="review_title">“{testimonialItem.title}”</h3>
+                                        <h3 className="review_title">â€œ{testimonialItem.title}â€</h3>
                                         <p className="review_commtent">
                                             {testimonialItem.description}
                                         </p>

@@ -1,9 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link'
 import blogs from '../../api/blogs'
 import Services from '../../api/service';
-import icon from '/public/images/icons/icon_search.svg';
-import icon1 from '/public/images/icons/icon_calendar.svg'
+import icon from 'public/images/icons/icon_search.svg';
+import icon1 from 'public/images/icons/icon_calendar.svg'
 import Image from 'next/image';
 
 const BlogSidebar = (props) => {

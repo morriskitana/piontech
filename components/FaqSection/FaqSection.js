@@ -1,6 +1,6 @@
-
+﻿
 import React, { useState } from 'react';
-import fImg1 from '/public/images/faq/faq_img.png'
+import fImg1 from 'public/images/faq/faq_img.png'
 import {
     Accordion,
     AccordionBody,

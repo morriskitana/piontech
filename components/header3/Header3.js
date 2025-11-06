@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
-import logo from '/public/images/site_logo/site_logo_3.svg'
+import logo from 'public/images/site_logo/site_logo_3.svg'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Image from 'next/image';
 import { aboutMenuItems, servicesMenuItems, projectMenuItems } from '../navigation/menuConfig';

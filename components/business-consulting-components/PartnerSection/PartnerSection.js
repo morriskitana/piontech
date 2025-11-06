@@ -1,14 +1,14 @@
-import React from "react";
+﻿import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pimg1 from '/public/images/clients/client_logo_1.webp'
-import pimg2 from '/public/images/clients/client_logo_2.webp'
-import pimg3 from '/public/images/clients/client_logo_3.webp'
-import pimg4 from '/public/images/clients/client_logo_4.webp'
-import pimg5 from '/public/images/clients/client_logo_5.webp'
-import pimg6 from '/public/images/clients/client_logo_6.webp'
-import pimg7 from '/public/images/clients/client_logo_7.webp'
+import pimg1 from 'public/images/clients/client_logo_1.webp'
+import pimg2 from 'public/images/clients/client_logo_2.webp'
+import pimg3 from 'public/images/clients/client_logo_3.webp'
+import pimg4 from 'public/images/clients/client_logo_4.webp'
+import pimg5 from 'public/images/clients/client_logo_5.webp'
+import pimg6 from 'public/images/clients/client_logo_6.webp'
+import pimg7 from 'public/images/clients/client_logo_7.webp'
 import Image from "next/image";
 
 const partners = [

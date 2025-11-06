@@ -1,10 +1,10 @@
-import React from 'react'
+﻿import React from 'react'
 import CountUp, { useCountUp } from 'react-countup';
-import sIcon1 from '/public/images/icon/c_01.svg'
-import sIcon2 from '/public/images/icon/c_02.svg'
-import sIcon3 from '/public/images/icon/c_03.svg'
-import sIcon4 from '/public/images/icon/c_04.svg'
-import Bg from '/public/images/bg/counter_bg.jpg'
+import sIcon1 from 'public/images/icon/c_01.svg'
+import sIcon2 from 'public/images/icon/c_02.svg'
+import sIcon3 from 'public/images/icon/c_03.svg'
+import sIcon4 from 'public/images/icon/c_04.svg'
+import Bg from 'public/images/bg/counter_bg.jpg'
 
 
 const FunFact = [

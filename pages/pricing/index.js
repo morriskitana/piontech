@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+﻿import React, { Fragment, useState } from 'react';
 import Link from 'next/link'
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
@@ -7,7 +7,7 @@ import Footer from '../../components/footer/Footer';
 import ModalVideo from 'react-modal-video'
 import CtaSection from '../../components/CtaSection/CtaSection';
 import PolicySection from './Policy';
-import offerBanner from '/public/images/icons/best_offer.svg.svg';
+import offerBanner from 'public/images/icons/best_offer.svg.svg';
 import PartnerSection from '../../components/PartnerSection';
 import Image from 'next/image';
 

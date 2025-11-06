@@ -1,6 +1,6 @@
-import "react-toastify/dist/ReactToastify.min.css";
+import "react-toastify/dist/ReactToastify.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/react-modal-video/scss/modal-video.scss';
+import 'react-modal-video/scss/modal-video.scss';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../styles/animate.css'

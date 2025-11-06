@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import shape1 from '/public/images/shapes/shape_space_4.svg';
-import shape2 from '/public/images/shapes/shape_angle_3.webp';
+﻿import React, { useState } from 'react';
+import shape1 from 'public/images/shapes/shape_space_4.svg';
+import shape2 from 'public/images/shapes/shape_angle_3.webp';
 
 import {
     Accordion,
@@ -212,7 +212,7 @@ const FaqSection = () => {
                             <AccordionBody accordionId="3" className='acc_body'>
                                 <div className="text_a">A.</div>
                                 <p>
-                                    Every engagement follows a consultative methodology: site surveys, pain-point analysis, scoped designs, sourcing, installation, configuration, testing, go-live and training—always anchored by clear communication and governance.
+                                    Every engagement follows a consultative methodology: site surveys, pain-point analysis, scoped designs, sourcing, installation, configuration, testing, go-live and trainingâ€”always anchored by clear communication and governance.
                                 </p>
                             </AccordionBody>
                         </AccordionItem>

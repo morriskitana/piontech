@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+﻿import React, { Fragment } from 'react';
 import Link from "next/link";
 import Teams from '../../api/team'
 import Header from '../../components/header/Header';
@@ -6,11 +6,11 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import tImg from '/public/images/team/team_cartoon_image.webp'
-import sImg1 from '/public/images/icons/icon_facebook.svg'
-import sImg2 from '/public/images/icons/icon_twitter_x.svg'
-import sImg3 from '/public/images/icons/icon_linkedin.svg'
-import sImg4 from '/public/images/icons/icon_instagram.svg'
+import tImg from 'public/images/team/team_cartoon_image.webp'
+import sImg1 from 'public/images/icons/icon_facebook.svg'
+import sImg2 from 'public/images/icons/icon_twitter_x.svg'
+import sImg3 from 'public/images/icons/icon_linkedin.svg'
+import sImg4 from 'public/images/icons/icon_instagram.svg'
 import Image from 'next/image';
 
 const TeamPage = (props) => {

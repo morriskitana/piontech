@@ -1,18 +1,18 @@
-// images
-import blogImg1 from "/public/images/blog/blog_post_image_1.webp";
-import blogImg2 from "/public/images/blog/blog_post_image_2.webp";
-import blogImg3 from "/public/images/blog/blog_post_image_3.webp";
-import blogImg4 from "/public/images/blog/blog_post_image_12.webp";
-import blogImg5 from "/public/images/blog/blog_post_image_13.webp";
-import blogImg6 from "/public/images/blog/blog_post_image_14.webp";
-import blogImg7 from "/public/images/blog/blog_post_image_15.webp";
-import blogImg8 from "/public/images/blog/blog_post_image_16.webp";
+﻿// images
+import blogImg1 from "public/images/blog/blog_post_image_1.webp";
+import blogImg2 from "public/images/blog/blog_post_image_2.webp";
+import blogImg3 from "public/images/blog/blog_post_image_3.webp";
+import blogImg4 from "public/images/blog/blog_post_image_12.webp";
+import blogImg5 from "public/images/blog/blog_post_image_13.webp";
+import blogImg6 from "public/images/blog/blog_post_image_14.webp";
+import blogImg7 from "public/images/blog/blog_post_image_15.webp";
+import blogImg8 from "public/images/blog/blog_post_image_16.webp";
 
 // images
-import blogsImg1 from "/public/images/blog/blog_post_image_1.webp";
-import blogsImg2 from "/public/images/blog/blog_post_image_2.webp";
-import blogsImg3 from "/public/images/blog/blog_post_image_3.webp";
-import blogsImg4 from "/public/images/blog/blog_post_image_1.webp";
+import blogsImg1 from "public/images/blog/blog_post_image_1.webp";
+import blogsImg2 from "public/images/blog/blog_post_image_2.webp";
+import blogsImg3 from "public/images/blog/blog_post_image_3.webp";
+import blogsImg4 from "public/images/blog/blog_post_image_1.webp";
 
 
 const blogs = [

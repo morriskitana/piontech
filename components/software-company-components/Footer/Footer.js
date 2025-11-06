@@ -1,7 +1,7 @@
-import React from 'react'
+﻿import React from 'react'
 import Link from 'next/link'
-import icon1 from '/public/images/shapes/shape_space_2.svg'
-import icon2 from '/public/images/icons/icon_mail_2.svg'
+import icon1 from 'public/images/shapes/shape_space_2.svg'
+import icon2 from 'public/images/icons/icon_mail_2.svg'
 import Slider from "react-slick";
 import Image from 'next/image';
 
@@ -348,7 +348,7 @@ const Footer = (props) => {
       <div className="footer_bottom" style={{ backgroundImage: `url(${'/images/shapes/shape_space_6.svg'})` }}>
         <div className="container d-md-flex align-items-md-center justify-content-md-between">
           <p className="copyright_text m-0">
-            Copyright © 2024 PionTech Systems Limited. All rights reserved.
+            Copyright Â© 2024 PionTech Systems Limited. All rights reserved.
           </p>
           <ul className="icon_list unordered_list">
             <li>

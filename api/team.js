@@ -1,8 +1,8 @@
-import timg1 from '/public/images/team/team_member_image_1.webp'
-import timg2 from '/public/images/team/team_member_image_2.webp'
-import timg3 from '/public/images/team/team_member_image_3.webp'
-import timg4 from '/public/images/team/team_member_image_4.webp'
-import timg5 from '/public/images/team/team_member_image_5.webp'
+﻿import timg1 from 'public/images/team/team_member_image_1.webp'
+import timg2 from 'public/images/team/team_member_image_2.webp'
+import timg3 from 'public/images/team/team_member_image_3.webp'
+import timg4 from 'public/images/team/team_member_image_4.webp'
+import timg5 from 'public/images/team/team_member_image_5.webp'
 
 
 const Teams = [

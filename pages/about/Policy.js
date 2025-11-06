@@ -1,7 +1,7 @@
-import React from 'react';
-import sIcon1 from '/public/images/icons/icon_clock.svg'
-import sIcon2 from '/public/images/icons/icon_dart_board_2.svg'
-import sIcon3 from '/public/images/icons/icon_target.svg'
+﻿import React from 'react';
+import sIcon1 from 'public/images/icons/icon_clock.svg'
+import sIcon2 from 'public/images/icons/icon_dart_board_2.svg'
+import sIcon3 from 'public/images/icons/icon_target.svg'
 import Image from 'next/image';
 
 const Policy = [

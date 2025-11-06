@@ -1,11 +1,11 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link'
 import CountUp from 'react-countup';
-import shape1 from '/public/images/hero/logo_google.svg'
-import shape2 from '/public/images/hero/business_consulting_hero_image_1.webp'
-import shape3 from '/public/images/hero/business_consulting_hero_image_2.webp'
-import icon1 from '/public/images/icons/icon_user_3.svg'
-import icon2 from '/public/images/icons/icon_wallet.svg'
+import shape1 from 'public/images/hero/logo_google.svg'
+import shape2 from 'public/images/hero/business_consulting_hero_image_1.webp'
+import shape3 from 'public/images/hero/business_consulting_hero_image_2.webp'
+import icon1 from 'public/images/icons/icon_user_3.svg'
+import icon2 from 'public/images/icons/icon_wallet.svg'
 import Image from 'next/image';
 
 const Hero3 = (props) => {

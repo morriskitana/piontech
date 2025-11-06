@@ -1,9 +1,9 @@
-import React from 'react'
+﻿import React from 'react'
 import ContactForm from '../ContactFrom/ContactForm'
-import icon1 from '/public/images/icons/icon_map_mark_2.svg'
-import icon2 from '/public/images/icons/icon_calling_2.svg'
-import icon3 from '/public/images/icons/icon_mail_3.svg'
-import icon4 from '/public/images/icons/icon_calendar_2.svg'
+import icon1 from 'public/images/icons/icon_map_mark_2.svg'
+import icon2 from 'public/images/icons/icon_calling_2.svg'
+import icon3 from 'public/images/icons/icon_mail_3.svg'
+import icon4 from 'public/images/icons/icon_calendar_2.svg'
 import Image from 'next/image'
 
 

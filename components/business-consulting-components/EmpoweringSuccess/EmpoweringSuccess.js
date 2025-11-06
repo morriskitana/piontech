@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import icon1 from '/public/images/icons/icon_bulb.svg'
-import icon2 from '/public/images/icons/icon_user_rating.svg'
-import icon3 from '/public/images/icons/icon_hand_shake.svg'
+﻿import React, { useState } from 'react'
+import icon1 from 'public/images/icons/icon_bulb.svg'
+import icon2 from 'public/images/icons/icon_user_rating.svg'
+import icon3 from 'public/images/icons/icon_hand_shake.svg'
 import ModalVideo from 'react-modal-video'
-import eImg from '/public/images/about/about_image_7.webp'
+import eImg from 'public/images/about/about_image_7.webp'
 import Image from 'next/image'
 
 

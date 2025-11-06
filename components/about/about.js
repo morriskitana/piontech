@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+﻿import React, { useState } from 'react'
 import Link from 'next/link'
-import about1 from '/public/images/about/about_image_9.webp'
-import about2 from '/public/images/about/about_image_11.webp'
-import about3 from '/public/images/about/about_image_10.webp'
+import about1 from 'public/images/about/about_image_9.webp'
+import about2 from 'public/images/about/about_image_11.webp'
+import about3 from 'public/images/about/about_image_10.webp'
 import ModalVideo from 'react-modal-video'
 import Image from 'next/image'
 
@@ -30,7 +30,7 @@ const About = (props) => {
                         <div className="about_content">
                             <div className="heading_block">
                                 <div className="heading_focus_text">
-                                    We are 😃
+                                    We are ðŸ˜ƒ
                                     <span className="badge bg-secondary text-white">Piontech</span>
                                 </div>
                                 <h2 className="heading_text">

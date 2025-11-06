@@ -1,13 +1,13 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link'
 import Project from '../../../api/project'
-import about1 from '/public/images/about/about_image_6.webp'
-import aIcon1 from '/public/images/avatar/avatar_1.webp'
-import aIcon2 from '/public/images/avatar/avatar_2.webp'
-import aIcon3 from '/public/images/avatar/avatar_3.webp'
-import aIcon4 from '/public/images/icons/icon_global.svg'
-import aIcon5 from '/public/images/shapes/shape_line.webp'
-import shape1 from '/public/images/shapes/shape_space_2.svg'
+import about1 from 'public/images/about/about_image_6.webp'
+import aIcon1 from 'public/images/avatar/avatar_1.webp'
+import aIcon2 from 'public/images/avatar/avatar_2.webp'
+import aIcon3 from 'public/images/avatar/avatar_3.webp'
+import aIcon4 from 'public/images/icons/icon_global.svg'
+import aIcon5 from 'public/images/shapes/shape_line.webp'
+import shape1 from 'public/images/shapes/shape_space_2.svg'
 import Image from 'next/image';
 
 

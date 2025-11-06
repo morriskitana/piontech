@@ -1,9 +1,9 @@
-
+﻿
 import React, { useState } from 'react';
-import shape1 from '/public/images/shapes/shape_line_2.svg'
-import shape2 from '/public/images/shapes/shape_line_3.svg'
-import shape3 from '/public/images/shapes/shape_line_4.svg'
-import shape4 from '/public/images/shapes/shape_space_3.svg'
+import shape1 from 'public/images/shapes/shape_line_2.svg'
+import shape2 from 'public/images/shapes/shape_line_3.svg'
+import shape3 from 'public/images/shapes/shape_line_4.svg'
+import shape4 from 'public/images/shapes/shape_space_3.svg'
 
 import {
     Accordion,

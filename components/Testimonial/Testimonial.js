@@ -1,9 +1,9 @@
-import React from 'react';
-import tImg1 from '/public/images/avatar/avatar_4.webp'
-import tImg2 from '/public/images/avatar/avatar_6.webp'
-import tImg3 from '/public/images/avatar/avatar_5.webp'
-import tImg4 from '/public/images/avatar/avatar_7.webp'
-import Bg from '/public/images/shapes/bg_pattern_2.svg'
+﻿import React from 'react';
+import tImg1 from 'public/images/avatar/avatar_4.webp'
+import tImg2 from 'public/images/avatar/avatar_6.webp'
+import tImg3 from 'public/images/avatar/avatar_5.webp'
+import tImg4 from 'public/images/avatar/avatar_7.webp'
+import Bg from 'public/images/shapes/bg_pattern_2.svg'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Image from 'next/image';
 
@@ -53,7 +53,7 @@ const Testimonial = () => {
                 <div className="heading_block text-center">
                     <div className="heading_focus_text">
                         <span className="badge bg-secondary text-white">Client</span>
-                        Testimonial 🙂
+                        Testimonial ðŸ™‚
                     </div>
                     <h2 className="heading_text mb-0">
                         What clients say
@@ -65,7 +65,7 @@ const Testimonial = () => {
                         <Masonry columnsCount={4} gutter="30px">
                             {testimonial.map((testimonial, tsm) => (
                                 <div className="review_block pb-0" key={tsm}>
-                                    <h3 className="review_title">“{testimonial.Title}”</h3>
+                                    <h3 className="review_title">â€œ{testimonial.Title}â€</h3>
                                     <p className="review_commtent">
                                         {testimonial.Des}
                                     </p>

@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react';
+﻿import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Image from 'next/image';
 
-import logo1 from '/public/images/clients/client_logo_1.webp';
-import logo2 from '/public/images/clients/client_logo_2.webp';
-import logo3 from '/public/images/clients/client_logo_3.webp';
-import logo4 from '/public/images/clients/client_logo_4.webp';
-import logo5 from '/public/images/clients/client_logo_5.webp';
-import logo6 from '/public/images/clients/client_logo_6.webp';
+import logo1 from 'public/images/clients/client_logo_1.webp';
+import logo2 from 'public/images/clients/client_logo_2.webp';
+import logo3 from 'public/images/clients/client_logo_3.webp';
+import logo4 from 'public/images/clients/client_logo_4.webp';
+import logo5 from 'public/images/clients/client_logo_5.webp';
+import logo6 from 'public/images/clients/client_logo_6.webp';
 
 const clients = [
     {

@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+﻿import React, { Fragment } from 'react';
 import Link from 'next/link'
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import srImg from '/public/images/services/service_image_8.webp' 
+import srImg from 'public/images/services/service_image_8.webp' 
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import WhyUs from '../about/WhyUs';
 import Image from 'next/image';

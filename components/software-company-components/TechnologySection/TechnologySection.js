@@ -1,16 +1,16 @@
-import React from 'react';
+﻿import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
-import logo1 from '/public/images/clients/client_logo_1.webp';
-import logo2 from '/public/images/clients/client_logo_2.webp';
-import logo3 from '/public/images/clients/client_logo_3.webp';
-import logo4 from '/public/images/clients/client_logo_4.webp';
-import logo5 from '/public/images/clients/client_logo_5.webp';
-import logo6 from '/public/images/clients/client_logo_6.webp';
-import logo7 from '/public/images/clients/client_logo_7.webp';
+import logo1 from 'public/images/clients/client_logo_1.webp';
+import logo2 from 'public/images/clients/client_logo_2.webp';
+import logo3 from 'public/images/clients/client_logo_3.webp';
+import logo4 from 'public/images/clients/client_logo_4.webp';
+import logo5 from 'public/images/clients/client_logo_5.webp';
+import logo6 from 'public/images/clients/client_logo_6.webp';
+import logo7 from 'public/images/clients/client_logo_7.webp';
 
 const brandLogos = [
     { id: 'logo-1', image: logo1 },

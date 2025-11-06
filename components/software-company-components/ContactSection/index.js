@@ -1,8 +1,8 @@
-import React from 'react'
+﻿import React from 'react'
 import ContactForm from '../ContactFrom/ContactForm'
-import shape1 from '/public/images/shapes/shape_line_5.svg'
-import shape2 from '/public/images/shapes/shape_line_6.svg'
-import shape3 from '/public/images/shapes/shape_space_5.svg'
+import shape1 from 'public/images/shapes/shape_line_5.svg'
+import shape2 from 'public/images/shapes/shape_line_6.svg'
+import shape3 from 'public/images/shapes/shape_space_5.svg'
 import Image from 'next/image'
 
 

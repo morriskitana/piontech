@@ -1,8 +1,8 @@
-import React from 'react'
+﻿import React from 'react'
 import blogs from '../../api/blogs'
 import Link from 'next/link'
-import Bg from '/public/images/shapes/bg_pattern_1.svg'
-import icon1 from '/public/images/icons/icon_calendar.svg'
+import Bg from 'public/images/shapes/bg_pattern_1.svg'
+import icon1 from 'public/images/icons/icon_calendar.svg'
 import Image from 'next/image'
 
 

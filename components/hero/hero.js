@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link'
-import heroImg from '/public/images/hero/it_solution_hero_image_1.webp'
-import icon from '/public/images/icons/icon_stars_trustpilot.svg'
-import avatar1 from '/public/images/avatar/avatar_1.webp'
-import avatar2 from '/public/images/avatar/avatar_2.webp'
-import avatar3 from '/public/images/avatar/avatar_3.webp'
+import heroImg from 'public/images/hero/it_solution_hero_image_1.webp'
+import icon from 'public/images/icons/icon_stars_trustpilot.svg'
+import avatar1 from 'public/images/avatar/avatar_1.webp'
+import avatar2 from 'public/images/avatar/avatar_2.webp'
+import avatar3 from 'public/images/avatar/avatar_3.webp'
 import Image from 'next/image';
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="it_solution_hero_content" style={{ backgroundImage: `url(${'/images/shapes/it_solution_hero_bg_1.svg'})` }}>
-                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span className="badge bg-secondary text-white">Are Piontech</span></div>
+                            <div className="heading_focus_text mb-0 d-inline-flex align-items-center">ðŸ‘‹ Hi We <span className="badge bg-secondary text-white">Are Piontech</span></div>
                             <h1>
                                 Grow your Business Organic & IT Solution Technology
                             </h1>

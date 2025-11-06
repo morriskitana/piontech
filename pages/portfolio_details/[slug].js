@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+﻿import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
 import Project from '../../api/project';
 import Link from "next/link";
@@ -7,8 +7,8 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import psImg from '/public/images/portfolio/portfolio_details_image_1.webp'
-import icon from '/public/images/icons/icon_check_3.svg'
+import psImg from 'public/images/portfolio/portfolio_details_image_1.webp'
+import icon from 'public/images/icons/icon_check_3.svg'
 import Image from 'next/image';
 
 

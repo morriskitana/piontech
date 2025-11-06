@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+﻿import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
 import Teams from '../../api/team'
 import CountUp from 'react-countup';
@@ -9,10 +9,10 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import sImg1 from '/public/images/icons/icon_facebook.svg'
-import sImg2 from '/public/images/icons/icon_twitter_x.svg'
-import sImg3 from '/public/images/icons/icon_linkedin.svg'
-import sImg4 from '/public/images/icons/icon_instagram.svg'
+import sImg1 from 'public/images/icons/icon_facebook.svg'
+import sImg2 from 'public/images/icons/icon_twitter_x.svg'
+import sImg3 from 'public/images/icons/icon_linkedin.svg'
+import sImg4 from 'public/images/icons/icon_instagram.svg'
 
 const TeamSinglePage = (props) => {
     const router = useRouter()

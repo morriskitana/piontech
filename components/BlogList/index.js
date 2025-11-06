@@ -1,12 +1,15 @@
-import { useRef, useEffect } from 'react';
-import { Navigation } from 'swiper';
+﻿import { useRef, useEffect } from 'react';
+import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import Link from 'next/link'
 import blogs from '../../api/blogs'
-import bImg from '/public/images/blog/blog_post_image_4.webp'
-import arrow from '/public/images/shapes/shape_arrow_right.svg'
-import arrow2 from '/public/images/shapes/shape_arrow_left.svg'
-import icon1 from '/public/images/icons/icon_calendar.svg'
+import bImg from 'public/images/blog/blog_post_image_4.webp'
+import arrow from 'public/images/shapes/shape_arrow_right.svg'
+import arrow2 from 'public/images/shapes/shape_arrow_left.svg'
+import icon1 from 'public/images/icons/icon_calendar.svg'
 import BlogSidebar from '../BlogSidebar';
 import Image from 'next/image';
 

@@ -1,11 +1,11 @@
-import React from 'react';
+﻿import React from 'react';
 import PartnerSection from '../PartnerSection';
 import CountUp from 'react-countup';
-import sIcon1 from '/public/images/icons/icon_head.svg'
-import sIcon2 from '/public/images/icons/icon_check.svg'
-import sIcon3 from '/public/images/icons/icon_like.svg'
-import sIcon4 from '/public/images/icons/icon_dart_board.svg'
-import fimg from '/public/images/about/about_image_1.webp'
+import sIcon1 from 'public/images/icons/icon_head.svg'
+import sIcon2 from 'public/images/icons/icon_check.svg'
+import sIcon3 from 'public/images/icons/icon_like.svg'
+import sIcon4 from 'public/images/icons/icon_dart_board.svg'
+import fimg from 'public/images/about/about_image_1.webp'
 import Image from 'next/image';
 
 const FunFact = [

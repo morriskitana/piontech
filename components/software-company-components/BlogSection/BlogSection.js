@@ -1,9 +1,9 @@
-import React from 'react'
+﻿import React from 'react'
 import blogs from '../../../api/blogs'
 import Link from 'next/link'
-import icon1 from '/public/images/icons/icon_calendar.svg'
-import shape1 from '/public/images/shapes/shape_line_7.svg'
-import shape2 from '/public/images/shapes/shape_angle_4.webp'
+import icon1 from 'public/images/icons/icon_calendar.svg'
+import shape1 from 'public/images/shapes/shape_line_7.svg'
+import shape2 from 'public/images/shapes/shape_angle_4.webp'
 import Image from 'next/image'
 
 

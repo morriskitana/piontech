@@ -1,9 +1,9 @@
-import React from 'react'
+﻿import React from 'react'
 import Link from 'next/link'
-import icon1 from '/public/images/icons/icon_mail.svg'
-import icon2 from '/public/images/icons/icon_calling.svg'
-import icon3 from '/public/images/icons/icon_map_mark.svg'
-import icon4 from '/public/images/icons/icon_mail_2.svg'
+import icon1 from 'public/images/icons/icon_mail.svg'
+import icon2 from 'public/images/icons/icon_calling.svg'
+import icon3 from 'public/images/icons/icon_map_mark.svg'
+import icon4 from 'public/images/icons/icon_mail_2.svg'
 import Services from '../../api/service'
 import Image from 'next/image'
 
@@ -201,7 +201,7 @@ const Footer = (props) => {
             <div className="footer_bottom">
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
                     <p className="copyright_text m-0">
-                        Copyright © 2024 Piontech, All rights reserved.
+                        Copyright Â© 2024 Piontech, All rights reserved.
                     </p>
                     <p className="copyright_text m-0">
                         Developed by <Link onClick={ClickHandler} href="/">MoR</Link>

@@ -1,13 +1,13 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link'
-import circle1 from '/public/images/hero/circle_engine_1.webp'
-import circle2 from '/public/images/hero/circle_engine_2.webp'
-import circle3 from '/public/images/hero/circle_engine_3.webp'
-import circle4 from '/public/images/hero/circle_engine_4.webp'
-import shape1 from '/public/images/hero/shape_image_1.webp'
-import shape2 from '/public/images/hero/shape_image_2.webp'
-import shape3 from '/public/images/hero/shape_image_3.webp'
-import shape4 from '/public/images/hero/shape_image_4.webp'
+import circle1 from 'public/images/hero/circle_engine_1.webp'
+import circle2 from 'public/images/hero/circle_engine_2.webp'
+import circle3 from 'public/images/hero/circle_engine_3.webp'
+import circle4 from 'public/images/hero/circle_engine_4.webp'
+import shape1 from 'public/images/hero/shape_image_1.webp'
+import shape2 from 'public/images/hero/shape_image_2.webp'
+import shape3 from 'public/images/hero/shape_image_3.webp'
+import shape4 from 'public/images/hero/shape_image_4.webp'
 import Image from 'next/image';
 
 const Hero2 = (props) => {

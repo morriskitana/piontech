@@ -1,11 +1,11 @@
-import React from 'react';
+﻿import React from 'react';
 import Services from '../../../api/service'
 import Link from 'next/link'
-import shape1 from '/public/images/shapes/shape_line_5.svg'
-import shape2 from '/public/images/shapes/shape_line_6.svg'
-import shape3 from '/public/images/shapes/shape_space_1.svg'
-import shape4 from '/public/images/shapes/shape_angle_1.webp'
-import shape5 from '/public/images/shapes/shape_angle_2.webp'
+import shape1 from 'public/images/shapes/shape_line_5.svg'
+import shape2 from 'public/images/shapes/shape_line_6.svg'
+import shape3 from 'public/images/shapes/shape_space_1.svg'
+import shape4 from 'public/images/shapes/shape_angle_1.webp'
+import shape5 from 'public/images/shapes/shape_angle_2.webp'
 import Image from 'next/image';
 
 
