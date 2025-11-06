@@ -24,6 +24,7 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
     "react-modal-video": "^2.0.2",
+    "react-responsive-masonry": "^2.7.1",
     "react-slick": "^0.31.0",
     "react-toastify": "^11.0.5",
     "reactstrap": "^9.2.3",

@@ -4,9 +4,7 @@ import tImg2 from 'public/images/avatar/avatar_6.webp'
 import tImg3 from 'public/images/avatar/avatar_5.webp'
 import tImg4 from 'public/images/avatar/avatar_7.webp'
 import Bg from 'public/images/shapes/bg_pattern_2.svg'
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 import Image from 'next/image';
-
 
 
 const testimonial = [
@@ -47,13 +45,12 @@ const testimonial = [
 const Testimonial = () => {
 
     return (
-
         <section className="review_section section_space bg-light" style={{ backgroundImage: `url(${Bg})` }}>
             <div className="container">
                 <div className="heading_block text-center">
                     <div className="heading_focus_text">
                         <span className="badge bg-secondary text-white">Client</span>
-                        Testimonial ðŸ™‚
+                        Testimonial 🙂
                     </div>
                     <h2 className="heading_text mb-0">
                         What clients say
@@ -61,27 +58,25 @@ const Testimonial = () => {
                 </div>
 
                 <div className="row">
-                    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 1, 991: 2 }}>
-                        <Masonry columnsCount={4} gutter="30px">
-                            {testimonial.map((testimonial, tsm) => (
-                                <div className="review_block pb-0" key={tsm}>
-                                    <h3 className="review_title">â€œ{testimonial.Title}â€</h3>
-                                    <p className="review_commtent">
-                                        {testimonial.Des}
-                                    </p>
-                                    <div className="review_admin">
-                                        <div className="review_admin_image">
-                                            <Image src={testimonial.tImg} alt="Roman Dymtro" />
-                                        </div>
-                                        <div className="review_admin_info">
-                                            <h4 className="review_admin_name">{testimonial.Name}</h4>
-                                            <span className="review_admin_designation">{testimonial.sub}</span>
-                                        </div>
+                    {testimonial.map((testimonial, tsm) => (
+                        <div className="col-lg-6 mb-4" key={tsm}>
+                            <div className="review_block pb-0 h-100">
+                                <h3 className="review_title">"{testimonial.Title}"</h3>
+                                <p className="review_commtent">
+                                    {testimonial.Des}
+                                </p>
+                                <div className="review_admin">
+                                    <div className="review_admin_image">
+                                        <Image src={testimonial.tImg} alt={testimonial.Name} />
+                                    </div>
+                                    <div className="review_admin_info">
+                                        <h4 className="review_admin_name">{testimonial.Name}</h4>
+                                        <span className="review_admin_designation">{testimonial.sub}</span>
                                     </div>
                                 </div>
-                            ))}
-                        </Masonry>
-                    </ResponsiveMasonry>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
