@@ -152,7 +152,7 @@ const Header2 = (props) => {
                                     </button>
                                 </li>
                                 <li>
-                                    <Link onClick={ClickHandler} className="btn btn-primary" href="/pricing">
+                                    <Link onClick={ClickHandler} className="btn btn-primary" href="/contact">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
@@ -181,22 +181,3 @@ const Header2 = (props) => {
 }
 
 export default Header2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

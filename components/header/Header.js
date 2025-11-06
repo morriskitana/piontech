@@ -38,7 +38,7 @@ const Header = (props) => {
         <header className="site_header site_header_1">
             <div className="header_top text-center">
                 <div className="container">
-                    <p className="m-0">Subscribe us and receive <b>20% bonus</b> discount on checkout. <Link onClick={ClickHandler} href="/pricing"><u>Learn more</u> <i className="fa-solid fa-angle-right"></i></Link></p>
+                    <p className="m-0">Subscribe to our newsletter and stay updated with the latest technology solutions. <Link onClick={ClickHandler} href="/service"><u>Learn more</u> <i className="fa-solid fa-angle-right"></i></Link></p>
                 </div>
             </div>
             <div className={`header_bottom stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
@@ -156,7 +156,7 @@ const Header = (props) => {
                                     </button>
                                 </li>
                                 <li>
-                                    <Link onClick={ClickHandler} className="btn btn-outline-light" href="/pricing">
+                                    <Link onClick={ClickHandler} className="btn btn-outline-light" href="/contact">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
@@ -185,23 +185,3 @@ const Header = (props) => {
 }
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
