@@ -1,4 +1,4 @@
-﻿import sImg1 from 'public/images/services/service_image_1.webp'
+import sImg1 from 'public/images/services/service_image_1.webp'
 import sImg2 from 'public/images/services/service_image_2.webp'
 import sImg3 from 'public/images/services/service_image_3.webp'
 import sImg4 from 'public/images/services/service_image_4.webp'
@@ -42,6 +42,7 @@ const Services = [
         sImg: sImg1,
         title: 'ICT Solutions, Systems & Hardware',
         slug: 'ict-solutions-systems-and-hardware',
+        emoji: '🖥️',
         col: 'col-lg-4 col-md-6',
         tags: ['Network Design', 'Lifecycle Support'],
         summary: 'Design, deploy and maintain customer-specific ICT infrastructure that keeps your organisation connected, secure and ready to scale.',
@@ -96,6 +97,7 @@ const Services = [
         sImg: sImg2,
         title: 'Integrated Security Solutions',
         slug: 'integrated-security-solutions',
+        emoji: '🛡️',
         col: 'col-lg-4 col-md-6',
         tags: ['Premise Security', 'Safety & Compliance'],
         summary: 'Protect assets, people and high-security locations with integrated visitor management, AI-enabled surveillance, biometric access and perimeter systems.',
@@ -135,6 +137,7 @@ const Services = [
         sImg: sImg3,
         title: 'Enterprise Applications',
         slug: 'enterprise-applications',
+        emoji: '🏢',
         col: 'col-lg-4 col-md-6',
         tags: ['Process Automation', 'Operations Visibility'],
         summary: 'Accelerate service delivery with enterprise platforms for fleet management, staff transport, omnichannel contact centres and facility operations.',
@@ -174,6 +177,7 @@ const Services = [
         sImg: sImg4,
         title: 'Custom Software & Integration',
         slug: 'custom-software-and-integration',
+        emoji: '⚙️',
         col: 'col-lg-4 col-md-6',
         tags: ['Bespoke Builds', 'System Integration'],
         summary: 'Co-create bespoke software through discovery, design, development, testing and deployment delivered by in-house specialists and trusted partners.',
@@ -213,6 +217,7 @@ const Services = [
         sImg: sImg5,
         title: 'Telecommunication Solutions',
         slug: 'telecommunication-solutions',
+        emoji: '📡',
         col: 'col-lg-4 col-md-6',
         tags: ['Broadcast & Spectrum', 'Network Availability'],
         summary: 'Engineer telecommunication infrastructure spanning broadcast monitoring, spectrum oversight, network planning and data centre preparedness.',
@@ -252,6 +257,7 @@ const Services = [
         sImg: iconPower,
         title: 'Power & Renewable Energy Solutions',
         slug: 'power-and-renewable-energy',
+        emoji: '⚡',
         col: 'col-lg-4 col-md-6',
         tags: ['Critical Power', 'Sustainable Energy'],
         summary: 'Deliver solar, hybrid and backup power systems that keep critical facilities running while improving energy efficiency and sustainability.',
@@ -291,6 +297,7 @@ const Services = [
         sImg: iconSmart,
         title: 'Smart Facilities & Building Automation',
         slug: 'smart-facilities-and-automation',
+        emoji: '🏗️',
         col: 'col-lg-4 col-md-6',
         tags: ['Comfort & Safety', 'Automation'],
         summary: 'Transform buildings into responsive environments with sensors, automation and remote management that enhance comfort, safety and efficiency.',
@@ -330,6 +337,7 @@ const Services = [
         sImg: iconIoT,
         title: 'IoT Solutions & Remote Monitoring',
         slug: 'iot-solutions-and-remote-monitoring',
+        emoji: '📶',
         col: 'col-lg-4 col-md-6',
         tags: ['Data-Driven Insights', 'Automation'],
         summary: 'Design bespoke IoT ecosystems that capture field data, trigger automation and feed cloud analytics across agriculture, industry and smart cities.',

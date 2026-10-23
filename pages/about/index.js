@@ -9,7 +9,6 @@ import ModalVideo from 'react-modal-video'
 import PolicySection from './Policy';
 import WhyUs from './WhyUs';
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
-import TeamSection from '../../components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Image from 'next/image';
 
@@ -76,7 +75,6 @@ const AboutUsPage = (props) => {
                 </section>
                 <PolicySection />
                 <FeaturesSection />
-                <TeamSection />
                 <WhyUs />
                 <CtaSection />
             </main>

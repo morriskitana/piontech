@@ -8,6 +8,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import ProcessTechnology from '../../components/software-company-components/ProcessTechnology/ProcessTechnology';
+import ServiceImages from '../../api/serviceImages'
 import srImg from 'public/images/services/service_details_image_1.webp'
 import srImg2 from 'public/images/services/service_details_image_2.webp'
 import srImg3 from 'public/images/services/service_details_image_3.webp'
@@ -16,17 +17,36 @@ import icon from 'public/images/icons/icon_check_3.svg'
 import Image from 'next/image';
 
 
-const ServiceSinglePage = () => {
+export const getStaticPaths = async () => ({
+    paths: Services.filter(service => service.details).map(service => ({ params: { slug: service.slug } })),
+    fallback: false
+});
+
+export const getStaticProps = async ({ params }) => ({
+    props: { slug: params.slug }
+});
+
+const ServiceSinglePage = (props) => {
 
     const router = useRouter()
 
+    const slug = props?.slug || router.query?.slug;
+
     const ServiceDetails = useMemo(
-        () => Services.find(item => item.slug === router.query.slug),
-        [router.query.slug]
+        () => Services.find(item => item.slug === slug),
+        [slug]
     );
 
     const serviceDetailsContent = ServiceDetails?.details || {};
     const serviceFeatures = ServiceDetails?.features || [];
+
+    // Each service line owns its own hero and gallery photography. Fall back to
+    // the shared set only if a slug has no dedicated images yet.
+    const serviceImages = ServiceImages[ServiceDetails?.slug] || {
+        hero: srImg,
+        tiles: [srImg2, srImg3, srImg4],
+    };
+    const [heroImage, ...galleryImages] = [serviceImages.hero, ...serviceImages.tiles];
     const overviewParagraphs = serviceDetailsContent.overview || [];
     const serviceCapabilities = serviceDetailsContent.services || [];
     const serviceOutcomes = serviceDetailsContent.outcomes || [];
@@ -54,7 +74,7 @@ const ServiceSinglePage = () => {
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
                         <div className="details_item_image position-relative">
-                            <Image src={srImg} alt="Service Details" />
+                            <Image src={heroImage} alt={ServiceDetails.title} />
                             {videoId && (
                                 <button className="video_btn ripple_effect" onClick={() => setOpen(true)}>
                                     <span className="btn_icon">
@@ -162,21 +182,13 @@ const ServiceSinglePage = () => {
                             </>
                         )}
                         <div className="row">
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="details_item_image m-0">
-                                    <Image src={srImg2} alt="Service Details" />
+                            {galleryImages.map((image, index) => (
+                                <div className="col-lg-4 col-md-6 col-sm-6" key={index}>
+                                    <div className="details_item_image m-0">
+                                        <Image src={image} alt={`${ServiceDetails.title} ${index + 1}`} />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="details_item_image m-0">
-                                    <Image src={srImg3} alt="Service Details" />
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="details_item_image m-0">
-                                    <Image src={srImg4} alt="Service Details" />
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </section>

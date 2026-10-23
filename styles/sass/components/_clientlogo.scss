@@ -94,23 +94,67 @@
 }
 
 .partner_logo_placeholder {
-	width: 72px;
-	height: 72px;
+	width: 48px;
+	height: 48px;
 	border-radius: 50%;
 	background-color: rgba(1, 50, 184, 0.08);
 	color: #0132B8;
-	font-size: 20px;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid rgba(1, 50, 184, 0.16);
 }
 
+// Fixed artboard so every brand logo occupies the same space regardless of
+// its aspect ratio (the supplied artwork ranges from 1:1 icons to 8:1 wordmarks).
 .partner_logo_image {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 156px;
+	height: 56px;
+	flex: 0 0 auto;
+
 	img {
-		max-height: 54px;
-		width: auto;
+		object-fit: contain;
 	}
+
+	// Brands that publish white artwork for dark backgrounds.
+	&.is-inverted img {
+		filter: invert(1) hue-rotate(180deg);
+	}
+
+	// Square app-style marks sit better a little smaller than the wordmarks.
+	&.is-icon img {
+		transform: scale(0.82);
+	}
+}
+
+// Fixed artboard for the client cards. Every client logo is centred in the
+// same box and scaled to fit, so a 1:1 emblem and an 8:1 wordmark both sit
+// on one visual baseline instead of being stretched to a single ratio.
+.client_logo_image {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 64px;
+	flex: 0 0 auto;
+
+	img {
+		object-fit: contain;
+	}
+}
+
+// Logos that ship on a solid background keep their own fill, so the tile
+// around them stays transparent instead of showing a white block.
+.client_logo_tile {
+	max-width: 100%;
 }
 /* 4.04 - Client Logo - End
 ================================================== */

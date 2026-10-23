@@ -1,0 +1,176 @@
+path	w	h	bytes	fmt	colors	std	phash	dupes
+about/about_image_1.webp	1648	2496	12162	png	134	18.1	ce7594b7254d	
+about/about_image_10.webp	322	479	15470	webp	2291	79	d9e490ca2587	
+about/about_image_11.webp	308	292	9872	webp	1952	84.5	1abf1818d16b	
+about/about_image_2.webp	1928	964	14421	png	196	36.9	45e660843230	
+about/about_image_3.webp	1700	1120	9212	png	170	27.4	eda0870232d7	
+about/about_image_4.webp	820	1120	4683	png	134	20.7	ad92950b2b04	
+about/about_image_5.webp	1100	998	7030	png	152	27.1	e86654b29398	
+about/about_image_6.webp	396	480	2307	png	169	26.1	4f6a4622202b	
+about/about_image_7.webp	1520	1124	7848	png	165	25.7	4041dba346ed	
+about/about_image_8.webp	1114	1292	5189	png	133	19.5	932f92d19326	2
+about/about_image_9.webp	3856	1928	32224	png	196	34.5	afbba436f2ee	
+avatar/avatar_1.webp	200	200	714	png	180	28.5	957180d85fee	3
+avatar/avatar_10.webp	320	320	1239	png	149	28.6	2ea5e4f850a0	3
+avatar/avatar_11.webp	320	320	1239	png	149	28.6	2ea5e4f850a0	3
+avatar/avatar_2.webp	200	200	714	png	180	28.5	957180d85fee	3
+avatar/avatar_3.webp	200	200	714	png	180	28.5	957180d85fee	3
+avatar/avatar_4.webp	1320	1520	7463	png	144	20.5	3aafd74fdb3f	4
+avatar/avatar_5.webp	1320	1520	7463	png	144	20.5	3aafd74fdb3f	4
+avatar/avatar_6.webp	1320	1520	7463	png	144	20.5	3aafd74fdb3f	4
+avatar/avatar_7.webp	1320	1520	7463	png	144	20.5	3aafd74fdb3f	4
+avatar/avatar_8.webp	600	600	3257	png	173	29.8	418ee344e0f2	
+avatar/avatar_9.webp	320	320	1239	png	149	28.6	2ea5e4f850a0	3
+backgrounds/bg_image_1.webp	3840	2558	32733	png	191	30.5	304d5154a1e4	
+backgrounds/bg_image_2.webp	3536	2471	1190806	webp	294	24.9	8b195724eba9	
+backgrounds/bg_image_3.webp	1860	1541	542036	webp	1733	12.4	7d0ecddc7fbe	
+backgrounds/bg_image_4.webp	1860	921	348290	webp	2008	14.6	078dc8a3ae03	
+backgrounds/bg_image_5.webp	3720	1778	27059	png	191	32.8	d6a960ef486a	
+blog/blog_post_image_1.webp	1640	944	10480	png	196	34.1	a817c41836e5	3
+blog/blog_post_image_10.webp	850	614	5334	png	187	34.5	57846717b33c	2
+blog/blog_post_image_11.webp	820	600	4779	png	190	35.5	a87dea0cfbe2	
+blog/blog_post_image_12.webp	1640	1304	9672	png	170	25.9	9a42d15808fc	3
+blog/blog_post_image_13.webp	1640	1304	9672	png	170	25.9	9a42d15808fc	3
+blog/blog_post_image_14.webp	1640	1304	9672	png	170	25.9	9a42d15808fc	3
+blog/blog_post_image_15.webp	971	893	6725	png	172	28.9	2516a7fec2c6	
+blog/blog_post_image_16.webp	970	893	7023	png	182	29.9	5be0be7eb0bb	
+blog/blog_post_image_2.webp	1640	944	10480	png	196	34.1	a817c41836e5	3
+blog/blog_post_image_3.webp	1640	944	10480	png	196	34.1	a817c41836e5	3
+blog/blog_post_image_4.webp	2580	1200	18016	png	203	34.9	19a8062c7d21	3
+blog/blog_post_image_5.webp	624	672	3375	png	162	27.2	328035314f95	3
+blog/blog_post_image_6.webp	624	672	3375	png	162	27.2	328035314f95	3
+blog/blog_post_image_7.webp	624	672	3375	png	162	27.2	328035314f95	3
+blog/blog_post_image_8.webp	2580	1190	18403	png	196	34.3	2b8296c780e4	
+blog/blog_post_image_9.webp	850	614	5334	png	187	34.5	57846717b33c	2
+case/case_image_1.webp	930	1004	5596	png	156	24.7	d91136e151c6	3
+case/case_image_2.webp	930	1004	5596	png	156	24.7	d91136e151c6	3
+case/case_image_3.webp	930	1004	5596	png	156	24.7	d91136e151c6	3
+case/case_image_4.webp	1624	1492	10307	png	165	23.6	0bd308720f23	
+clients/CIC_Group_Logo.png	170	144	2765	png	463	45.1	3764dff2762d	
+clients/Confederation_of_African_Football_logo.svg.webp	900	838	59924	webp	2381	74	021e304dd442	
+clients/Cosmos-Identity-Col.png	414	84	3676	png	1128	87.4	e9287c48ba84	
+clients/ajax-systems.png	350	150	11322	png	270	52	2a59c76fa2f7	
+clients/allied-telesis.png	960	115	15851	png	152	11.1	11c69cbdcf46	
+clients/aratek.png	520	93	3564	png	298	58.7	081568802d33	
+clients/barracuda.png	900	148	17933	png	116	119.4	9dfa3647a3ce	
+clients/binalyze.png	900	233	15992	png	36	126.5	cd910cce5f91	
+clients/blueiot.png	800	216	29199	png	374	53.2	e8f895902a82	
+clients/caf logo.jpg	573	534	44683	jpeg	2628	67.1	ec2c7ddad47b	
+clients/client_logo_1.webp	600	250	20996	webp	998	42.3	a10702690830	
+clients/client_logo_10.webp	336	77	2720	webp	873	22.1	ced47935fcf5	
+clients/client_logo_2.webp	300	58	5848	webp	1401	42.9	4621aa023e69	
+clients/client_logo_3.webp	309	119	6058	webp	1807	73.1	1d01ef0a874e	
+clients/client_logo_4.webp	340	112	3682	webp	1292	94.3	a8ca1963ba68	
+clients/client_logo_5.webp	500	148	5274	webp	530	25.8	576fd50329b5	
+clients/client_logo_6.webp	456	140	7014	webp	1240	60.2	5b37a9f95c9d	
+clients/client_logo_7.webp	2706	1137	57780	webp	1235	63.2	aadf9a5020b2	
+clients/client_logo_8.webp	202	164	7352	webp	929	42.7	15b7845df56e	
+clients/client_logo_9.webp	288	83	2120	webp	793	24.9	f79ce256a83f	
+clients/cryotos.png	500	183	64084	png	1416	51.6	ddc3e8a025d3	
+clients/daosafe.png	705	100	56565	png	511	81.3	755f6c26c179	
+clients/drone-detection-system.png	256	256	9219	png	233	99.8	42064d7d459d	
+clients/eisenvault.png	192	57	9906	png	977	65.9	edf899f73f08	
+clients/elefine-tech.png	310	150	7221	png	427	59.5	20cf89f8ccbf	
+clients/extreme-networks.png	800	200	21104	png	259	12.6	7a0524251cc3	
+clients/forescout.png	960	203	20097	png	81	31.5	45be48b24beb	
+clients/h3c.png	362	98	31712	png	941	77.3	4523f8e5a219	
+clients/huawei.png	266	60	11701	png	689	33.8	1f5f0bbe50bd	
+clients/iflytek.png	800	157	17793	png	214	23.9	8caa0c398bc7	
+clients/ilri_logo.png	423	119	6192	png	938	72.2	af7e6c563e03	
+clients/inmarsat.png	564	339	91361	png	924	62.7	2300610bb7ea	
+clients/ioco.png	192	192	17782	png	953	46.7	aedc3371b717	
+clients/juniper-networks.png	882	367	10165	png	294	64.8	434f2cdaad3c	
+clients/kemri.png	512	512	20787	png	1181	90.7	525fafd53da6	
+clients/landscapealliance.png	900	229	35397	png	1518	106.1	12e54943bbe8	
+clients/last-line-solutions.png	228	66	10931	png	1058	63.7	62d27ee67a96	
+clients/logo-mksu.png	410	51	21279	png	1406	36.9	f938bce748f7	
+clients/logsign.png	1032	164	34704	png	199	15.3	1e88611e59d3	
+clients/mesh-plus-plus.png	400	137	5698	png	126	110.3	d0be0cc4cb29	
+clients/mindfire-solutions.png	2219	887	449292	png	291	26.7	71adee68db1f	
+clients/norden-communication.png	505	91	10749	png	293	35.8	a66eb57d11bc	
+clients/pdmholdings.png	297	88	1521	png	566	81.8	6ad306b8a5c7	
+clients/picus-security.png	800	197	17253	png	77	114.8	f2bc7eb81a36	
+clients/qburst.png	800	179	19441	png	3	126.5	1b1c36a18f17	
+clients/sameer_africa-logo.png	300	152	24990	png	630	37.1	ff6684b6ecdf	
+clients/segura.png	210	54	12728	png	785	24.6	ce2db02fc620	
+clients/sharedocs.png	2172	434	257352	png	193	14	3cdf6176a678	
+clients/shoghi-communications.png	800	188	15151	png	182	28	1be19ec9bf93	
+clients/sifanetsystems.png	800	245	10737	png	423	43.7	86b6ac497e4e	
+clients/sonicwall.png	800	129	19695	png	139	14.9	f4967a9586f4	
+clients/synology.png	960	256	36787	png	329	73.7	9e6301f8149f	
+clients/tanium.png	800	144	10924	png	281	34.8	4b8fe23862e0	
+clients/tigerwong.png	550	250	52513	png	1012	65.3	617ae299c407	
+clients/tsingoal.png	512	512	22034	png	256	56.5	1e4616012f59	
+clients/unilumin.png	960	175	20495	png	161	31	d0f8d6cedaa0	
+clients/vectra-ai.png	800	187	28874	png	742	52.9	2131a8acd3bd	
+clients/veze-auto-door.png	147	100	12246	png	1411	23.9	c9f896251b7f	
+clients/watchguard.png	800	230	20881	png	82	14.4	ad0f8bb55f97	
+clients/wii-parking.png	356	83	9777	png	343	53.4	a2efb3107e44	
+clients/wisestamp.png	900	135	18050	png	301	120.2	2b07230581dd	
+clients/xfusion.png	800	110	16107	png	265	18.2	ee4a696aa662	
+clients/zkteco.png	504	116	54421	png	556	67.8	6b7e8cc3f93c	
+flag/ukraine_flag.webp	80	80	772	webp	591	70.1	4e7e469bf0d1	
+hero/business_consulting_hero_image_1.webp	1114	1292	5189	png	133	19.5	932f92d19326	2
+hero/business_consulting_hero_image_2.webp	2460	3616	23544	webp	66	2.5	fe42b6e7d83b	
+hero/business_consulting_hero_section_bg.jpg	1890	904	14314	jpeg	1493	8.1	b134f0119d1c	
+hero/circle_engine_1.png	612	612	37221	png	635	38	d09fc97c020d	
+hero/circle_engine_1.webp	612	612	13658	webp	428	37.7	c47b3296eb01	
+hero/circle_engine_2.webp	1792	1792	469194	webp	683	87	284128e60c48	
+hero/circle_engine_3.webp	2273	2273	103570	webp	514	46.8	62fad85bf570	
+hero/circle_engine_4.png	716	676	51392	png	180	32.7	ced78ed26d89	
+hero/circle_engine_4.webp	2775	2775	134790	webp	477	17.8	1f9bc7dba5f6	
+hero/it_solution_hero_image_1.webp	1400	1400	6122	png	150	23	197dc87ad3b0	2
+hero/it_solution_hero_image_2.webp	1400	1400	6122	png	150	23	197dc87ad3b0	2
+hero/shape_image_1.webp	4526	288	20438	webp	223	57.5	a6a5b0b9b06e	
+hero/shape_image_2.webp	4744	488	69732	webp	268	60.1	6d73a61e2631	
+hero/shape_image_3.webp	1386	756	74180	webp	690	40.2	01e7588a5002	
+hero/shape_image_4.webp	1386	755	73320	webp	663	41.5	24d9b8a3067d	
+itflow_page_thumbnail.webp	1897	893	66418	webp	1489	67.7	4603d3d90d1d	
+itflow_page_thumbnail_2.webp	1898	923	71352	webp	1504	24.6	7da76134ec80	
+portfolio/portfolio_details_image_1.webp	2580	1080	18806	png	199	37.2	75b667cb5c6f	
+portfolio/portfolio_item_image_1.webp	2184	1272	12971	png	183	29.6	3a05a3506ac2	3
+portfolio/portfolio_item_image_10.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_11.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_2.webp	2184	1272	12971	png	183	29.6	3a05a3506ac2	3
+portfolio/portfolio_item_image_3.webp	2184	1272	12971	png	183	29.6	3a05a3506ac2	3
+portfolio/portfolio_item_image_4.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_5.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_6.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_7.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_8.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+portfolio/portfolio_item_image_9.webp	1180	876	6964	png	181	29.6	e23b3a3d9f08	8
+services/service_details_image_1.webp	2580	1200	18016	png	203	34.9	19a8062c7d21	3
+services/service_details_image_2.webp	820	820	3969	png	187	29.7	aa4c810f48c7	3
+services/service_details_image_3.webp	820	820	3969	png	187	29.7	aa4c810f48c7	3
+services/service_details_image_4.webp	820	820	3969	png	187	29.7	aa4c810f48c7	3
+services/service_details_image_5.webp	2580	1200	18016	png	203	34.9	19a8062c7d21	3
+services/service_image_1.webp	2520	1900	17643	png	176	27.1	91b0eb850a47	4
+services/service_image_2.webp	2520	1900	17643	png	176	27.1	91b0eb850a47	4
+services/service_image_3.webp	1640	1900	10168	png	141	21.1	f906ccb05485	3
+services/service_image_4.webp	1640	1900	10168	png	141	21.1	f906ccb05485	3
+services/service_image_5.webp	1640	1900	10168	png	141	21.1	f906ccb05485	3
+services/service_image_6.webp	2520	1900	17643	png	176	27.1	91b0eb850a47	4
+services/service_image_7.webp	2520	1900	17643	png	176	27.1	91b0eb850a47	4
+services/service_image_8.webp	1002	822	5399	png	175	28.6	fb3a5c6561d6	
+services/shape_line_5.png	206	670	8162	png	57	20.1	47d072bbd16d	
+services/shape_line_6.png	277	226	5568	png	72	18.4	d8a22185849a	
+shapes/shape_angle_1.webp	1061	1456	287226	webp	711	39.5	536b9ebf2f77	
+shapes/shape_angle_2.webp	1062	1080	212608	webp	836	36.8	311b171e79d9	
+shapes/shape_angle_3.webp	1060	1080	211366	webp	832	38.5	f7072713e0e8	
+shapes/shape_angle_4.webp	1062	1456	282892	webp	724	39	2d94b8387441	
+shapes/shape_bg_1.webp	1888	960	5280	webp	45	91.8	a702ddf54567	
+shapes/shape_line.webp	1486	620	9438	webp	210	20	4016a0d37539	
+shapes/shape_line_2.png	203	318	5074	png	69	14.7	6f60b8683c29	
+shapes/shape_line_3.png	197	670	8012	png	65	20.7	3afadcecd297	
+shapes/shape_line_4.png	142	370	5302	png	87	18.2	1f6cc3fa3a46	
+shapes/shape_line_5.png	208	670	8236	png	66	21.4	647497600cfe	
+shapes/shape_line_6.png	266	225	5507	png	83	17.7	969721c1873c	
+shapes/shape_line_7.png	204	337	5063	png	74	15.2	301c6d2eea03	
+shapes/shape_polygon.webp	452	493	39138	webp	132	124.8	5dbf5806e812	
+team/team_cartoon_image.webp	1150	958	6936	png	177	27.9	aee243fb9975	
+team/team_map.webp	1110	1030	458794	webp	1084	80	faaf02ef7d9b	
+team/team_member_image_1.webp	572	772	2957	png	147	21.8	14e821811e07	
+team/team_member_image_2.webp	586	754	3391	png	174	24.8	7d7ccf9ff66f	
+team/team_member_image_3.webp	672	792	3693	png	161	24.6	adebfda2138f	
+team/team_member_image_4.webp	556	776	2952	png	158	22.9	5c97fc1bffef	
+team/team_member_image_5.webp	650	800	3929	png	161	26.1	13fa1873dd4d	

@@ -39,6 +39,51 @@
 		}
 	}
 
+	.portfolio_summary {
+		margin: 0 0 18px;
+		color: var(--bs-body-color);
+	}
+
+	.portfolio_meta {
+		gap: 8px 24px;
+		padding-top: 16px;
+		border-top: 1px solid var(--bs-border-color);
+		font-size: 14px;
+		color: var(--bs-secondary);
+		>li {
+			display: flex;
+			align-items: center;
+			gap: 7px;
+		}
+		i {
+			color: var(--bs-primary);
+		}
+		>li.is_ongoing {
+			padding: 4px 12px;
+			border-radius: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			background-color: var(--bs-warning-bg-subtle);
+			color: var(--bs-warning);
+			i {
+				color: var(--bs-warning);
+				font-size: 10px;
+			}
+		}
+		>li.is_completed {
+			padding: 4px 12px;
+			border-radius: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			background-color: var(--bs-success-bg-subtle);
+			color: var(--bs-success);
+			i {
+				color: var(--bs-success);
+				font-size: 10px;
+			}
+		}
+	}
+
 	.btn {
 		top: 26px;
 		right: 30px;
@@ -53,6 +98,9 @@
 
 // Portfolio Layout 2
 .portfolio_block.portfolio_layout_2 {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	padding: 20px;
 	.portfolio_image_wrap {
 		border-radius: var(--bs-border-radius-sm);
@@ -67,11 +115,80 @@
 	}
 	.portfolio_content {
 		display: flex;
-		padding: 38px 40px 20px 20px;
-		flex-direction: column-reverse;
+		flex: 1 1 auto;
+		padding: 28px 20px 20px 20px;
+		flex-direction: column;
 	}
 	.portfolio_title {
-		margin: 21px 0 0;
+		margin: 0 0 10px;
+	}
+	.portfolio_summary {
+		flex: 0 0 auto;
+	}
+	.category_list {
+		margin-top: auto;
+		padding-top: 16px;
+	}
+	.portfolio_meta {
+		margin-top: 12px;
+	}
+}
+
+// Portfolio filters - the service line filter row. The controls are buttons so
+// they work from the keyboard and expose their pressed state.
+.portfolio_filters {
+	margin-bottom: 40px;
+	>ul {
+		gap: 3px;
+		flex-wrap: wrap;
+		>li {
+			padding: 0;
+			cursor: default;
+			font-size: 13px;
+			white-space: nowrap;
+			>button {
+				display: block;
+				width: 100%;
+				padding: 14px 18px 11px;
+				font: inherit;
+				color: inherit;
+				text-transform: inherit;
+				letter-spacing: inherit;
+				background: transparent;
+				border: 0;
+				border-radius: inherit;
+				cursor: pointer;
+			}
+			&.active > button {
+				color: var(--bs-white);
+			}
+			&:focus-within {
+				outline: 2px solid var(--bs-primary);
+				outline-offset: 2px;
+			}
+		}
+	}
+}
+.filter_count {
+	font-weight: 400;
+	opacity: .6;
+}
+.portfolio_related {
+	.client_logo_tile {
+		min-height: 90px;
+		aspect-ratio: 16 / 9;
+		img {
+			max-width: 85%;
+			height: auto;
+		}
+	}
+}
+// Ongoing / completed sections - the site navigation deep-links to
+// /portfolio#ongoing and /portfolio#completed, so both anchors must exist.
+.portfolio_status_group {
+	scroll-margin-top: 110px;
+	+ .portfolio_status_group {
+		margin-top: 60px;
 	}
 }
 /* 4.07 - Portfolio - End

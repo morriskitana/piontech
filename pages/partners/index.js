@@ -5,16 +5,7 @@ import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import Image from 'next/image';
 
-import logo1 from 'public/images/clients/client_logo_1.webp';
-import logo2 from 'public/images/clients/client_logo_2.webp';
-import logo3 from 'public/images/clients/client_logo_3.webp';
-import logo4 from 'public/images/clients/client_logo_4.webp';
-import logo5 from 'public/images/clients/client_logo_5.webp';
-import logo6 from 'public/images/clients/client_logo_6.webp';
-import logo7 from 'public/images/clients/client_logo_7.webp';
-import logo8 from 'public/images/clients/client_logo_8.webp';
-import logo9 from 'public/images/clients/client_logo_9.webp';
-import logo10 from 'public/images/clients/client_logo_10.webp';
+import { findPartnerLogo, partnerMonogram } from '../../components/PartnerSection/partnerLogos';
 
 const partnerCategories = [
     {
@@ -24,8 +15,13 @@ const partnerCategories = [
             'Hewlett Packard Enterprise',
             'ARISTA',
             'BROADCOM',
+            'Allied Telesis',
+            'Extreme Networks',
+            'H3C',
             'RingCentral',
             'HUAWEI',
+            'iFLYTEK',
+            'iOCO',
             'SIEMON™',
             'GIGANET',
             'CISCO',
@@ -39,6 +35,11 @@ const partnerCategories = [
             'NETGEAR',
             'CERAGON',
             'aruba',
+            'Synology',
+            'EisenVault',
+            'Elefine Tech',
+            'Unilumin',
+            'xFusion',
             'freshdesk',
             'Asterisk',
             'MultiS',
@@ -50,6 +51,7 @@ const partnerCategories = [
     {
         title: 'Integrated Security Solutions',
         partners: [
+            'AJAX Systems',
             'ADAPTIVE RECOGNITION',
             'Honeywell',
             'IRONYUN',
@@ -58,13 +60,29 @@ const partnerCategories = [
             'Dahua TECHNOLOGY',
             'SAFR from realnetworks',
             'SafeAgle',
+            'Cryotos',
+            'LogSign',
+            'WiseStamp',
             'Dedrone',
+            'Drone Detection System',
+            'Veze Auto Door',
             'herta',
             'EVTRACK',
             'SHOGHI',
+            'Picus Security',
+            'QBurst',
             'leidos',
             'ASCENDENT',
             'DaoSafe',
+            'Barracuda',
+            'SonicWall',
+            'WatchGuard',
+            'Tanium',
+            'ForeScout',
+            'Vectra AI',
+            'Segura',
+            'Aratek',
+            'Tigerwong',
             'PatriotOne TECHNOLOGIES',
             'RAFAEL',
             'suprema BIOMETRICS & SECURITY',
@@ -87,11 +105,14 @@ const partnerCategories = [
             'monday.com',
             'onelogin',
             'winlon by GURTAM',
+            'ShareDocs',
             'DIGITAL REALTY',
             'CORESITE',
             'KIOUDIP',
             'HoduSoft',
             'Trackplan',
+            'Mindfire Solutions',
+            'Wii Parking',
             'team By OFFICE',
             'TELTONIKA',
             '中国电信',
@@ -111,6 +132,9 @@ const partnerCategories = [
             'ROHDE&SCHWARZ',
             'LS/telcom',
             'OCO',
+            'Last Line Solutions',
+            'Norden Communication',
+            'Binalyze',
             'inmarsat',
             'TEOCO',
             'ALTITUDE',
@@ -144,6 +168,9 @@ const partnerCategories = [
             'my Devices',
             'Telit',
             'TELTONIKA',
+            'BlueIOT',
+            'Tsingoal',
+            'Mesh++',
             'Milesight',
             'LoRaWAN',
             'THE THINGS NETWORK'
@@ -169,44 +196,6 @@ const partnerCategories = [
     }
 ];
 
-const logoLookup = [
-    { keywords: ['CISCO'], logo: logo2 },
-    { keywords: ['HUAWEI'], logo: logo3 },
-    { keywords: ['TP-LINK', 'TP LINK'], logo: logo5 },
-    { keywords: ['ARUBA'], logo: logo4 },
-    { keywords: ['PANASONIC'], logo: logo8 },
-    { keywords: ['NETGEAR'], logo: logo6 },
-    { keywords: ['UBIQUITI'], logo: logo7 },
-    { keywords: ['RINGCENTRAL'], logo: logo9 },
-    { keywords: ['MICROSOFT'], logo: logo1 },
-    { keywords: ['GOOGLE'], logo: logo10 },
-    { keywords: ['LOGITECH'], logo: logo1 },
-    { keywords: ['LENOVO'], logo: logo3 },
-    { keywords: ['SONY'], logo: logo8 },
-    { keywords: ['SAMSUNG'], logo: logo6 },
-    { keywords: ['LG'], logo: logo4 },
-    { keywords: ['HISENSE'], logo: logo5 }
-];
-
-const fallbackLogos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10];
-
-const hashString = (value) =>
-    value
-        .split('')
-        .reduce((acc, char) => acc + char.charCodeAt(0), 0);
-
-const findLogo = (partnerName) => {
-    const upper = partnerName.toUpperCase();
-    const match = logoLookup.find((entry) =>
-        entry.keywords.some((keyword) => upper.includes(keyword))
-    );
-    if (match?.logo) {
-        return match.logo;
-    }
-    const hash = hashString(upper);
-    return fallbackLogos[hash % fallbackLogos.length];
-};
-
 const PartnersPage = () => (
     <Fragment>
         <Header />
@@ -228,27 +217,46 @@ const PartnersPage = () => (
                                 </p>
                             </div>
                             <div className="row g-4">
-                                {category.partners.map((partner) => (
-                                    <div className="col-xl-3 col-lg-4 col-md-6" key={`${category.title}-${partner}`}>
-                                        <div className="card h-100 border-0 shadow-sm">
-                                            <div className="card-body d-flex flex-column align-items-center text-center">
-                                                <div className="mb-3 partner_logo_image d-inline-flex align-items-center justify-content-center rounded-3 bg-white border shadow-sm px-4 py-3">
-                                                    <Image
-                                                        src={findLogo(partner)}
-                                                        alt={`${partner} logo`}
-                                                        width={140}
-                                                        height={60}
-                                                        className="img-fluid"
-                                                    />
-                                                </div>
-                                                <h4 className="h6 mb-2">{partner}</h4>
-                                                <div className="small text-muted">
-                                                    {category.title}
+                                {category.partners.map((partner) => {
+                                    const logo = findPartnerLogo(partner);
+                                    const tileClassName = [
+                                        'partner_logo_image',
+                                        logo?.invert ? 'is-inverted' : '',
+                                        logo?.icon ? 'is-icon' : ''
+                                    ]
+                                        .filter(Boolean)
+                                        .join(' ');
+
+                                    return (
+                                        <div className="col-xl-3 col-lg-4 col-md-6" key={`${category.title}-${partner}`}>
+                                            <div className="card h-100 border-0 shadow-sm">
+                                                <div className="card-body d-flex flex-column align-items-center text-center">
+                                                    <div className="mb-3 partner_logo_tile d-inline-flex align-items-center justify-content-center rounded-3 bg-white border shadow-sm px-3 py-2">
+                                                        <div className={tileClassName}>
+                                                            {logo ? (
+                                                                <Image
+                                                                    src={logo.src}
+                                                                    alt={`${partner} logo`}
+                                                                    fill
+                                                                    sizes="156px"
+                                                                    style={{ objectFit: 'contain' }}
+                                                                />
+                                                            ) : (
+                                                                <span className="partner_logo_placeholder" aria-hidden="true">
+                                                                    {partnerMonogram(partner)}
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                    <h4 className="h6 mb-2">{partner}</h4>
+                                                    <div className="small text-muted">
+                                                        {category.title}
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         </div>
                     ))}

@@ -1,6 +1,7 @@
 ﻿import React from 'react';
 import Link from 'next/link'
 import Project from '../../../api/project'
+import { findPartnerLogo, partnerMonogram } from '../../PartnerSection/partnerLogos'
 import about1 from 'public/images/about/about_image_6.webp'
 import aIcon1 from 'public/images/avatar/avatar_1.webp'
 import aIcon2 from 'public/images/avatar/avatar_2.webp'
@@ -16,6 +17,12 @@ const About = (props) => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   }
+
+  // Figures come from the portfolio catalogue, so the home page always agrees
+  // with what is published on /portfolio.
+  const clientCount = new Set(Project.map(project => project.client)).size;
+  const deliveredCount = Project.filter(project => project.status === 'completed').length;
+  const serviceLineCount = new Set(Project.map(project => project.category)).size;
 
   return (
     <section className="about_and_case_section section_space section_decoration bg-dark" style={{ backgroundImage: `url(${'/images/backgrounds/bg_image_2.webp'})` }}>
@@ -39,35 +46,33 @@ const About = (props) => {
                       <Image src={aIcon3} alt="Customer Avatar" />
                     </li>
                     <li>
-                      <span>6k+</span>
+                      <span>{clientCount}+</span>
                     </li>
                   </ul>
                   <p className="mb-0">
-                    Happy Customer
+                    Client Organisations
                   </p>
                 </div>
                 <div className="about_funfact_counter">
-                  <div className="funfact_item">
-                    <div className="counter_value">
-                      <span className="odometer" data-count="6">0</span>
-                      <span>K+</span>
-                    </div>
-                    <h3 className="funfact_title mb-0">Projects Done</h3>
+                <div className="funfact_item">
+                  <div className="counter_value">
+                    <span className="odometer" data-count={deliveredCount}>0</span>
                   </div>
-                  <div className="funfact_item">
-                    <div className="counter_value">
-                      <span className="odometer" data-count="100">0</span>
-                      <span>%</span>
-                    </div>
-                    <h3 className="funfact_title mb-0">Results Guaranteed</h3>
-                  </div>
+                  <h3 className="funfact_title mb-0">Projects Delivered</h3>
                 </div>
-                <a className="btn btn-primary" href="about.html">
+                <div className="funfact_item">
+                  <div className="counter_value">
+                    <span className="odometer" data-count={serviceLineCount}>0</span>
+                  </div>
+                  <h3 className="funfact_title mb-0">Service Lines</h3>
+                </div>
+                </div>
+                <Link onClick={ClickHandler} className="btn btn-primary" href="/about">
                   <span className="btn_label" data-text="Learn More">Learn More</span>
                   <span className="btn_icon">
                     <i className="fa-solid fa-arrow-up-right"></i>
                   </span>
-                </a>
+                </Link>
                 <div className="icon_globe">
                   <Image src={aIcon4} alt="Icon Globe" />
                 </div>
@@ -112,15 +117,24 @@ const About = (props) => {
                 </div>
                 <div className="case_study_content">
                   <ul className="category_list unordered_list text-uppercase">
-                    <li><a href="portfolio.html">{project.sub}</a></li>
+                    <li>
+                      <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${project.serviceSlug}`}>
+                        {project.service}
+                      </Link>
+                    </li>
                   </ul>
                   <h3 className="case_title">
                     <Link onClick={ClickHandler} href={'/portfolio_details/[slug]'} as={`/portfolio_details/${project.slug}`}>{project.title}</Link>
                   </h3>
                   <p>
-                    {project.description}
+                    {project.summary}
                   </p>
                   <ul className="icon_list unordered_list">
+                    <li>
+                      <span className="icon_list_text">
+                        <strong className="text-dark">Client:</strong> {project.client}
+                      </span>
+                    </li>
                     <li>
                       <span className="icon_list_text">
                         <strong className="text-dark">Industry:</strong> {project.Industry}
@@ -133,12 +147,18 @@ const About = (props) => {
                     </li>
                   </ul>
                   <ul className="case_technologies unordered_list" data-text="Core Technologies:">
-                    <li>
-                      <Image src={project.Technologies1} alt="Angular" />
-                    </li>
-                    <li>
-                      <Image src={project.Technologies2} alt="Elephent" />
-                    </li>
+                    {project.partners.slice(0, 2).map(partner => {
+                      const logo = findPartnerLogo(partner);
+                      return (
+                        <li key={partner}>
+                          {logo ? (
+                            <Image src={logo.src} alt={partner} width={120} height={40} style={{ objectFit: 'contain' }} />
+                          ) : (
+                            <span className="partner_logo_placeholder" aria-hidden="true">{partnerMonogram(partner)}</span>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                   <Link onClick={ClickHandler} href={'/portfolio_details/[slug]'} as={`/portfolio_details/${project.slug}`} className="btn btn-primary">
                     <span className="btn_label" data-text="Read Case">Read Case</span>

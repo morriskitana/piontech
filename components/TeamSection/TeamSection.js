@@ -33,16 +33,6 @@ const TeamSection = (props) => {
 
         <section className="team_section xb-hidden section_space">
             <div className="container">
-                <div className="heading_block text-center">
-                    <div className="heading_focus_text">
-                        <span className="badge bg-secondary text-white">Our Expert</span>
-                        Team Members ðŸ˜
-                    </div>
-                    <h2 className="heading_text mb-0">
-                        Top Skilled Experts
-                    </h2>
-                </div>
-
                 <div className="team_carousel">
                     <Swiper
                         loop={true}

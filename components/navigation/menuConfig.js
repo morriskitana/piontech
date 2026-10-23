@@ -1,7 +1,6 @@
 ﻿import iconAbout from 'public/images/icons/icon_bulb.svg';
 import iconClients from 'public/images/icons/icon_users.svg';
 import iconPartners from 'public/images/icons/icon_hand_shake.svg';
-import iconTeam from 'public/images/icons/icon_user_2.svg';
 import iconCareer from 'public/images/icons/icon_pen.svg';
 
 import iconIct from 'public/images/icons/icon_wifi.svg';
@@ -38,13 +37,6 @@ export const aboutMenuItems = [
         href: '/partners',
         description: 'Leading vendors & alliances',
         icon: iconPartners,
-        colClass: 'col-lg-3 col-md-6'
-    },
-    {
-        title: 'Team',
-        href: '/team',
-        description: 'Meet the experts',
-        icon: iconTeam,
         colClass: 'col-lg-3 col-md-6'
     },
     {

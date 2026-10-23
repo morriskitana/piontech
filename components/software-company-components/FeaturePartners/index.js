@@ -1,41 +1,23 @@
 ﻿import React from "react";
 import Slider from "react-slick";
+import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pimg1 from 'public/images/clients/client_logo_1.webp'
-import pimg2 from 'public/images/clients/client_logo_2.webp'
-import pimg3 from 'public/images/clients/client_logo_3.webp'
-import pimg4 from 'public/images/clients/client_logo_4.webp'
-import pimg5 from 'public/images/clients/client_logo_5.webp'
-import pimg6 from 'public/images/clients/client_logo_6.webp'
-import pimg7 from 'public/images/clients/client_logo_7.webp'
 import Image from "next/image";
+import { findPartnerLogo, partnerMonogram } from "../../PartnerSection/partnerLogos";
 
+// Real partner names, exactly as published on /partners, so the artwork
+// lookup resolves the same logos used on the partner wall.
 const partners = [
-    {
-        pImg: pimg1,
-    },
-    {
-        pImg: pimg2,
-    },
-    {
-        pImg: pimg3,
-    },
-    {
-        pImg: pimg4,
-    },
-    {
-        pImg: pimg5,
-    },
-    {
-        pImg: pimg6,
-    },
-    {
-        pImg: pimg7,
-    },
-    {
-        pImg: pimg2,
-    },
+    'HUAWEI',
+    'Juniper NETWORKS',
+    'Allied Telesis',
+    'Extreme Networks',
+    'H3C',
+    'AJAX Systems',
+    'SonicWall',
+    'ZKTECO',
+    'Synology'
 ]
 
 var settings = {
@@ -103,15 +85,30 @@ const FeaturePartners = (props) => {
         <div className="feature_partners_section">
             <div className="container position-relative">
                 <div className="title_text text-white">
-                    Our Technology Partners
+                    <Link href="/partners" className="text-white">Our Technology Partners</Link>
                 </div>
                 <div className="client_logo_carousel">
                     <Slider {...settings}>
-                        {partners.map((partner, pitem) => (
-                            <div className="client_logo_item" key={pitem}>
-                                <Image src={partner.pImg} alt="Piontech - Client Logo" />
-                            </div>
-                        ))}
+                        {partners.map((partner) => {
+                            const logo = findPartnerLogo(partner);
+                            const tileClassName = [
+                                'client_logo_item',
+                                logo?.invert ? 'is-inverted' : '',
+                                logo?.icon ? 'is-icon' : ''
+                            ].filter(Boolean).join(' ');
+
+                            return (
+                                <div className={tileClassName} key={partner}>
+                                    <Link href="/partners" aria-label={`${partner} — technology partners`}>
+                                        {logo ? (
+                                            <Image src={logo.src} alt={partner} style={{ objectFit: 'contain' }} />
+                                        ) : (
+                                            <span className="partner_logo_placeholder" aria-hidden="true">{partnerMonogram(partner)}</span>
+                                        )}
+                                    </Link>
+                                </div>
+                            );
+                        })}
                     </Slider>
                 </div>
             </div>

@@ -129,7 +129,7 @@ const BusinessTestimonial = () => {
                                     </p>
                                     <div className="review_admin">
                                         <div className="review_admin_image">
-                                            <Image src={testimonial.avatar} alt="Maverick Phoenix" />
+                                            <Image src={testimonial.avatar} alt={testimonial.Title} />
                                         </div>
                                         <div className="review_admin_info">
                                             <h4 className="review_admin_name">{testimonial.Title}</h4>

@@ -30,7 +30,7 @@ const About = (props) => {
                         <div className="about_content">
                             <div className="heading_block">
                                 <div className="heading_focus_text">
-                                    We are ðŸ˜ƒ
+                                    We are
                                     <span className="badge bg-secondary text-white">Piontech</span>
                                 </div>
                                 <h2 className="heading_text">
@@ -46,7 +46,9 @@ const About = (props) => {
                                         <i className="fa-solid fa-circle fa-fw"></i>
                                     </span>
                                     <span className="icon_list_text">
-                                        Grow your business the right way.
+                                        <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={'/service-single/ict-solutions-systems-and-hardware'}>
+                                            ICT hardware, networks and systems that keep operations running.
+                                        </Link>
                                     </span>
                                 </li>
                                 <li>
@@ -54,7 +56,9 @@ const About = (props) => {
                                         <i className="fa-solid fa-circle fa-fw"></i>
                                     </span>
                                     <span className="icon_list_text">
-                                        Let business growth help your business grow.
+                                        <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={'/service-single/custom-software-and-integration'}>
+                                            Custom software and integration built around your process.
+                                        </Link>
                                     </span>
                                 </li>
                                 <li>
@@ -62,13 +66,15 @@ const About = (props) => {
                                         <i className="fa-solid fa-circle fa-fw"></i>
                                     </span>
                                     <span className="icon_list_text">
-                                        Helping you to get better.
+                                        <Link onClick={ClickHandler} href="/service">
+                                            Security, telecom, power, smart facilities and IoT under one accountable partner.
+                                        </Link>
                                     </span>
                                 </li>
                             </ul>
                             <ul className="btns_group unordered_list p-0 justify-content-start">
                                 <li>
-                                    <Link onClick={ClickHandler} href="/pricing" className="btn">
+                                    <Link onClick={ClickHandler} href="/contact" className="btn">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>

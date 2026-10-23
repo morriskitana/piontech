@@ -7,7 +7,6 @@ import PolicySection from '../../components/PolicySection/PolicySection';
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 import ProjectSection from '../../components/ProjectSection/ProjectSection';
 import Testimonial from '../../components/Testimonial/Testimonial';
-import TeamSection from '../../components/TeamSection/TeamSection';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Footer from '../../components/footer/Footer';
@@ -28,7 +27,6 @@ const HomePage = () => {
                     <ServiceSection />
                     <ProjectSection />
                     <Testimonial />
-                    <TeamSection />
                     <BlogSection />
                     <CtaSection />
                 </main>
