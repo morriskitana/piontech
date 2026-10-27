@@ -2,7 +2,7 @@
 import icon1 from 'public/images/icons/icon_bulb.svg'
 import icon2 from 'public/images/icons/icon_user_rating.svg'
 import icon3 from 'public/images/icons/icon_hand_shake.svg'
-import ModalVideo from 'react-modal-video'
+import VideoDialog from '../../VideoDialog'
 import eImg from 'public/images/about/about_image_7.webp'
 import Image from 'next/image'
 
@@ -78,7 +78,7 @@ const EmpoweringSuccess = (props) => {
               </div>
             </div>
           </div>
-          <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
+          <VideoDialog isOpen={isOpen} onClose={() => setOpen(false)} videoId="7e90gBu4pas" />
         </section>
     )
 }

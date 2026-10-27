@@ -4,7 +4,7 @@ import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
-import ModalVideo from 'react-modal-video'
+import VideoDialog from '../../components/VideoDialog'
 import CtaSection from '../../components/CtaSection/CtaSection';
 import PolicySection from './Policy';
 import offerBanner from 'public/images/icons/best_offer.svg.svg';
@@ -220,7 +220,7 @@ const PricingPage = (props) => {
             <CtaSection />
             <Footer />
             <Scrollbar />
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
+            <VideoDialog isOpen={isOpen} onClose={() => setOpen(false)} videoId="7e90gBu4pas" />
         </Fragment>
     )
 };
