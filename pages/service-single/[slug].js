@@ -1,7 +1,7 @@
 ﻿import React, { Fragment, useMemo, useState } from 'react';
 import Services from '../../api/service'
 import { useRouter } from 'next/router'
-import ModalVideo from 'react-modal-video'
+import VideoDialog from '../../components/VideoDialog'
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
@@ -197,7 +197,7 @@ const ServiceSinglePage = (props) => {
             <Footer />
             <Scrollbar />
             {videoId && (
-                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId={videoId} onClose={() => setOpen(false)} />
+                <VideoDialog isOpen={isOpen} onClose={() => setOpen(false)} videoId={videoId} />
             )}
         </Fragment>
     )

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import about1 from 'public/images/about/about_image_9.webp'
 import about2 from 'public/images/about/about_image_11.webp'
 import about3 from 'public/images/about/about_image_10.webp'
-import ModalVideo from 'react-modal-video'
+import VideoDialog from '../VideoDialog'
 import Image from 'next/image'
 
 
@@ -94,7 +94,7 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
+            <VideoDialog isOpen={isOpen} onClose={() => setOpen(false)} videoId="7e90gBu4pas" />
         </section>
     )
 }

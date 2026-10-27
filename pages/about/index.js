@@ -5,7 +5,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import aImg from 'public/images/about/about_image_3.webp'
 import aImg2 from 'public/images/about/about_image_4.webp'
-import ModalVideo from 'react-modal-video'
+import VideoDialog from '../../components/VideoDialog'
 import PolicySection from './Policy';
 import WhyUs from './WhyUs';
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
@@ -80,7 +80,7 @@ const AboutUsPage = (props) => {
             </main>
             <Footer />
             <Scrollbar />
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
+            <VideoDialog isOpen={isOpen} onClose={() => setOpen(false)} videoId="7e90gBu4pas" />
         </Fragment>
     )
 };
